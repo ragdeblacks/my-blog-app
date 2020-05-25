@@ -1,0 +1,75 @@
+.background-blog{
+    background: black url("./assets/background5.gif") no-repeat fixed center; //background5.gif
+}
+.btn-menu { 
+    color: #ffffff;//#75C56C; 
+    background-color: #31313b !important; 
+    border-color: #31313b !important; 
+    border-radius: 0px;
+    box-shadow: none;
+    border-bottom: 1px solid #ffffff;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 0px;
+    max-width: 68px;
+    width: 68px;
+    .bt-content{
+        padding-top: 20%;
+        padding-bottom: 20%;
+        .label-button{
+            padding-top: 30%;
+        }
+    }
+  } 
+   
+  .btn-menu:hover, 
+  .btn-menu:focus, 
+  .btn-menu:active, 
+  .btn-menu.active, 
+  .open .dropdown-toggle.btn-menu { 
+    color: #75C56C; 
+    background-color: #31313b !important; 
+    border-color: #31313b !important; 
+    border-radius: 0px;
+    box-shadow: none;
+  } 
+   
+  .btn-menu:active, 
+  .btn-menu.active, 
+  .open .dropdown-toggle.btn-menu { 
+    background-image: none; 
+  } 
+   
+  .btn-menu.disabled, 
+  .btn-menu[disabled], 
+  fieldset[disabled] .btn-menu, 
+  .btn-menu.disabled:hover, 
+  .btn-menu[disabled]:hover, 
+  fieldset[disabled] .btn-menu:hover, 
+  .btn-menu.disabled:focus, 
+  .btn-menu[disabled]:focus, 
+  fieldset[disabled] .btn-menu:focus, 
+  .btn-menu.disabled:active, 
+  .btn-menu[disabled]:active, 
+  fieldset[disabled] .btn-menu:active, 
+  .btn-menu.disabled.active, 
+  .btn-menu[disabled].active, 
+  fieldset[disabled] .btn-menu.active { 
+    background-color: #31313b !important; 
+    border-color: #31313b !important; 
+    border-radius: 0px;
+  } 
+   
+  .btn-menu .badge { 
+    color: #31313b !important; 
+    background-color: #75C56C; 
+    border-radius: 0px;
+  }
+
+  .nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: max-content;
+    width: max-content;
+ }
