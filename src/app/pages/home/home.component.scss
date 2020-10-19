@@ -1,5 +1,10 @@
-.container-principal{
-    position: relative;
-    top: 20% !important;
-    
+.profile{
+    &-menu-button{
+        line-height: 17px !important;
+        max-width: 80px !important;
+        max-height: 68px !important;
+        &-label{
+            font-size: 11px !important;
+        }
+    }
 }
